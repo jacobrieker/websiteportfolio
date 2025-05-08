@@ -210,12 +210,7 @@ function App() {
             <p className="project-label">PROJECT 3</p>
             <h3>Web App</h3>
             <p className="project-description">
-            I am currently building a full-stack card games app using ASP.NET Core and React.js, featuring
-              single-player and multiplayer Blackjack and Solitaire. I’ve worked across the stack—coding backend logic
-              for deck handling, player actions, and game state, and building responsive React components for UI and
-              gameplay. The app uses a modular architecture with verticals for each game and a shared data layer for
-              cards and user auth. It’s helped me apply real-world practices like version control, modular design, and
-              frontend-backend communication.
+              I am currently developing a full-stack card games application using ASP.NET Core and React.js, with support for both single-player and local multiplayer modes. The project includes fully interactive versions of Blackjack and Solitaire. It’s built using the iDesign architecture, with clearly defined verticals for each game and a shared data layer for core logic like card handling and user authentication. I’ve worked across the stack throughout development, and the project reflects real-world software engineering practices in areas like modular design, version control, and frontend-backend integration.
 
             </p>
             <a

@@ -232,7 +232,7 @@ function App() {
             <div className="video-frame"></div>
             <iframe
               className="project-video"
-              src="https://www.youtube.com/embed/jLAPOYAsEHM"
+              src="https://www.youtube.com/embed/hS8qskkFKB0"
               title="Web App Placeholder"
               allowFullScreen
               loading="lazy"

@@ -672,129 +672,127 @@ body, p, h1, h2, h3, h4, h5, h6, span {
   
 
 
-  /* 📱 Mobile Optimizations for screens smaller than 768px */
-@media (max-width: 768px) {
-  .hero-wrapper {
-    padding: 80px 20px 0 20px;
+  @media (max-width: 768px) {
+    /* Hide navbar entirely on mobile */
+    .navbar {
+      display: none;
+    }
+  
+    .hero-wrapper {
+      padding: 80px 20px 0 20px;
+    }
+  
+    .hero-title {
+      font-size: 2.8rem;
+      text-align: center;
+    }
+  
+    .hero-title .dot {
+      font-size: 4rem;
+    }
+  
+    .hero-subtitle {
+      text-align: center;
+      font-size: 1.4rem;
+    }
+  
+    .hero-last-line {
+      top: -10px;
+    }
+  
+    .projects-btn {
+      font-size: 1rem;
+      padding: 14px 28px;
+      margin: 20px auto;
+      display: block;
+    }
+  
+    .about-section {
+      flex-direction: column;
+      padding: 30px 20px;
+    }
+  
+    .about-container {
+      flex-direction: column;
+      gap: 40px;
+      align-items: center;
+    }
+  
+    .about-image {
+      width: 100%;
+    }
+  
+    .about-image-frame {
+      display: none;
+    }
+  
+    .about-content {
+      max-width: 100%;
+      text-align: center;
+      padding: 0 10px;
+    }
+  
+    .about-buttons {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      margin-left: 0;
+    }
+  
+    .portfolio-section {
+      padding: 20px;
+    }
+  
+    .project {
+      flex-direction: column !important;
+      gap: 40px;
+      text-align: center;
+    }
+  
+    .project-text {
+      max-width: 100%;
+    }
+  
+    .project-video-wrapper {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16/9;
+    }
+  
+    .video-frame {
+      display: none;
+    }
+  
+    .experience-section {
+      padding: 60px 20px;
+    }
+  
+    .experience-grid {
+      gap: 30px;
+    }
+  
+    .contact-background {
+      padding: 30px 20px;
+      width: 100%;
+      margin-left: 0;
+      border-radius: 60px;
+    }
+  
+    .contact-content {
+      flex-direction: column;
+      gap: 40px;
+      padding: 0 10px;
+    }
+  
+    .contact-left,
+    .contact-form-wrapper {
+      padding: 0;
+      margin: 0 auto;
+      width: 100%;
+    }
+  
+    .contact-form-wrapper {
+      max-width: 100%;
+    }
   }
-
-  .hero-title {
-    font-size: 2.6rem;
-  }
-
-  .hero-title .dot {
-    font-size: 4rem;
-  }
-
-  .hero-last-line {
-    top: -20px;
-  }
-
-  .projects-btn {
-    font-size: 0.9rem;
-    padding: 14px 28px;
-  }
-
-  .navbar {
-    flex-direction: column;
-    padding: 10px 20px;
-    align-items: flex-start;
-    gap: 10px;
-  }
-
-  .logo {
-    padding-left: 20px;
-    font-size: 2.2rem;
-  }
-
-  .nav-links {
-    flex-direction: column;
-    gap: 20px;
-    padding: 0;
-  }
-
-  .about-section {
-    flex-direction: column;
-    padding: 30px 20px;
-  }
-
-  .about-container {
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
-  }
-
-  .about-image {
-    width: 100%;
-  }
-
-  .about-image-frame {
-    display: none;
-  }
-
-  .about-content {
-    max-width: 100%;
-    text-align: center;
-    padding: 0 10px;
-  }
-
-  .about-buttons {
-    flex-direction: column;
-    align-items: center;
-    margin-left: 0;
-  }
-
-  .portfolio-section {
-    padding: 20px;
-  }
-
-  .project {
-    flex-direction: column !important;
-    gap: 40px;
-  }
-
-  .project-video-wrapper {
-    width: 100%;
-  }
-
-  .project-text {
-    max-width: 100%;
-    text-align: center;
-  }
-
-  .experience-section {
-    padding: 60px 20px;
-  }
-
-  .experience-grid {
-    gap: 30px;
-  }
-
-  .contact-background {
-    padding: 20px;
-    width: 100%;
-    margin-left: 0;
-    border-radius: 60px;
-  }
-
-  .contact-content {
-    flex-direction: column;
-    gap: 40px;
-    padding: 0 10px;
-  }
-
-  .contact-left,
-  .contact-form-wrapper {
-    padding: 0;
-    margin: 0 auto;
-  }
-
-  .contact-form-wrapper {
-    max-width: 100%;
-    width: 100%;
-  }
-
-  .video-arrows {
-    top: 60%;
-  }
-}
+  

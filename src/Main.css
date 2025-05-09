@@ -796,4 +796,11 @@ body, p, h1, h2, h3, h4, h5, h6, span {
   }
 }
 
+@media (min-width: 1600px) {
+  .hero-watermark {
+    top: 225px;
+    left: -80px;
+    font-size: 450px;
+  }
+}
 

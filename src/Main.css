@@ -796,15 +796,4 @@ body, p, h1, h2, h3, h4, h5, h6, span {
   }
 }
 
-@media (min-width: 1600px) {
-  html {
-    transform: scale(1.15);
-    transform-origin: top center;
-  }
-
-  body {
-    overflow-x: hidden;
-  }
-}
-
 

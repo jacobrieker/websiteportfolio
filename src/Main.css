@@ -796,25 +796,15 @@ body, p, h1, h2, h3, h4, h5, h6, span {
   }
 }
 
-@media (min-width: 1200px) {
-  .hero-wrapper,
-  .about-section,
-  .portfolio-section,
-  .experience-section,
-  .contact-section {
-    min-height: 120vh;
+@media (min-width: 1600px) {
+  html {
+    transform: scale(1.15);
+    transform-origin: top center;
   }
 
-  .about-section,
-  .portfolio-section,
-  .experience-section {
-    padding-top: 140px;
-    padding-bottom: 140px;
-  }
-
-  .contact-background {
-    padding-top: 60px;
-    padding-bottom: 100px;
+  body {
+    overflow-x: hidden;
   }
 }
+
 

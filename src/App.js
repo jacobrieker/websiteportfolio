@@ -153,7 +153,7 @@ function App() {
             <div className="video-frame"></div>
             <iframe
               className="project-video"
-              src="https://www.youtube.com/embed/qdh5LOdHZi4?si=2nlsIt7_1qD4qpRh"
+              src="https://www.youtube.com/embed/aFh3z1PEtig"
               title="Basketball Game"
               allowFullScreen
               loading="lazy"

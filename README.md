@@ -5,7 +5,7 @@ This is the source code for my personal portfolio site, built with **React.js**.
 ## Tech Stack
 
 - **Frontend**: React.js
-- **Styling**: CSS (custom responsive layout)
+- **Styling**: CSS
 - **Deployment**: Vercel
 
 ## Features

@@ -124,7 +124,6 @@ function App() {
       <div id="portfolio" className="portfolio-section">
         <h2 className="portfolio-header">PORTFOLIO</h2>
 
-        {/* Project 1 */}
         <div className="project">
           <div className="project-text">
             <p className="project-label">PROJECT 1</p>
@@ -161,7 +160,6 @@ function App() {
           </div>
         </div>
 
-        {/* Project 2 */}
         <div className="project flipped">
           <div className="project-video-wrapper flipped-frame">
             <div className="video-frame"></div>
@@ -204,7 +202,6 @@ function App() {
           </div>
         </div>
 
-        {/* Project 3 */}
         <div className="project">
           <div className="project-text">
             <p className="project-label">PROJECT 3</p>
@@ -313,7 +310,6 @@ function App() {
             <input type="email" name="email" placeholder="Email" required />
             <textarea name="message" placeholder="Message" required></textarea>
 
-            {/* Optional: disable CAPTCHA */}
             <input type="hidden" name="_captcha" value="false" />
 
             <button type="submit">Send</button>

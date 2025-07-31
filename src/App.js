@@ -282,7 +282,7 @@ function App() {
             <div className="contact-info">
               <img src="/icons/linkedin.png" alt="LinkedIn" />
               <a
-                href="https://www.linkedin.com/in/jacob-rieker-3761b226a/"
+                href="https://www.linkedin.com/in/jacob-rieker"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="contact-anchor"

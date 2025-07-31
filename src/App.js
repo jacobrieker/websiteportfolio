@@ -240,7 +240,7 @@ function App() {
             <p>C#</p>
           </div>
           <div className="experience-item">
-            <img src="/icons/azure.png" alt="Azure" />
+            <img src="/icons/aws.png" alt="Azure" />
             <p>Azure</p>
           </div>
           <div className="experience-item">
@@ -260,7 +260,7 @@ function App() {
             <p>JavaScript</p>
           </div>
           <div className="experience-item">
-            <img src="/icons/node.png" alt="Node.js" />
+            <img src="/icons/dotnet.png" alt="Node.js" />
             <p>Node.js</p>
           </div>
           <div className="experience-item">
